@@ -1,25 +1,22 @@
-# Lista_de_Exercicios_de_Logica_de_Programacao_Java
-Coleção de exercícios práticos de Lógica de Programação em Java.
+# ☕ Lista de Exercícios de Lógica de Programação - Java
 
-# ☕ Exercícios de Lógica de Programação em Java
-
-Este repositório contém a resolução de exercícios focados no aprendizado e na consolidação da **Lógica de Programação** utilizando **Java**. O objetivo é construir uma base sólida em algoritmos e resolução de problemas.
+Este repositório contém as soluções da lista de exercícios de **Lógica de Programação** desenvolvidos em **Java**. O objetivo é fortalecer a base em algoritmos e resolução de problemas.
 
 ---
 
 ## 👨‍🏫 Orientação
 
-Exercícios desenvolvidos sob a orientação do **Prof. Gustavo Martins Nunes Avellar**.
+Exercícios desenvolvidos sob a orientação e acompanhamento do **Prof. Gustavo Martins Nunes Avellar**.
 
 ---
 
 ## 📌 Conteúdos Abordados
 
-* **Conceitos Básicos:** Entrada e saída de dados, operadores aritméticos, relacionais e lógicos.
+* **Conceitos Básicos:** Entrada e saída de dados, variáveis e operadores.
 * **Estruturas Condicionais:** Tomadas de decisão com `if`, `else` e `switch case`.
-* **Estruturas de Repetição:** Laços de repetição `for`, `while` e `do-while`.
-* **Vetores e Matrizes:** Manipulação de estruturas de dados unidimensionais e multidimensionais.
-* **Modularização:** Criação e reutilização de funções e métodos.
+* **Estruturas de Repetição:** Laços com `for`, `while` e `do-while`.
+* **Vetores e Matrizes:** Manipulação de estruturas unidimensionais e multidimensionais.
+* **Modularização:** Organização do código utilizando funções e métodos.
 
 ---
 
@@ -31,8 +28,8 @@ Exercícios desenvolvidos sob a orientação do **Prof. Gustavo Martins Nunes Av
 
 ---
 
-## 🚀 Como Executar
+## 🚀 Como Executar o Projeto
 
-1. Clone este repositório:
+1. **Clone este repositório:**
    ```bash
-   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+   git clone [https://github.com/Luc4sR0cha/Lista_de_Exercicios_de_Logica_de_Programacao_Java.git](https://github.com/Luc4sR0cha/Lista_de_Exercicios_de_Logica_de_Programacao_Java.git)
