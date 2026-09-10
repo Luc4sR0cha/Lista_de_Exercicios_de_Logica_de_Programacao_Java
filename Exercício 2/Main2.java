@@ -79,8 +79,7 @@ public class Main2 {
         if (data[0] <= 0 || data[1] <= 0 || data[1] > 12 || data[2] < 1900) {
             return false;
         }
-
-        if (data[1] == 4 || data[1] == 6 || data[1] == 9 || data[1] == 11) {
+        else if (data[1] == 4 || data[1] == 6 || data[1] == 9 || data[1] == 11) {
             return data[0] <= 30;
         }
         else if (data[1] == 2) {

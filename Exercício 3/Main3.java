@@ -13,12 +13,23 @@ apresentar o resultado. Cada operação deverá ser implementada em um método p
 e opções inexistentes deverão ser tratadas sem encerrar inesperadamente o programa.
 */
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main3 {
+
+    public static void main(String[] args) {
+
+    Object[] dados = new Object[3];
+
+    dados(dados);
+
+    };
+
+    public static void dados (Object[] dados) {
     Scanner sc = new Scanner(System.in);
 
-    System.out.println(
+    System.out.println("Escolha uma operação: \n" +
                         "1. soma;\n" + 
                         "2. subtração;\n" + 
                         "3. multiplicação;\n" + 
@@ -26,11 +37,64 @@ public class Main3 {
                         "5. potenciação;\n" + 
                         "6. resto da divisão;\n" + 
                         "7. encerrar.");
-    }
 
+    String operacao = sc.nextLine();
 
+    dados[0] = operacao;
+    
+    ArrayList<Double> valores = new ArrayList<Double>(); 
 
-    public static void main() {
+    boolean parar = false;
+    int contador = 1;
+
+    while (parar == false) {
+        System.out.println("Digite o " + contador + "° número (obs: para sair digite 'sair'): ");
+        String input = sc.nextLine().toLowerCase();
+
+        if (input == "sair") {
+            parar = true;
+        }
+        else{
+            try {
+                Double numero = Double.parseDouble(input);
+                valores.add(numero);
+            } catch (Exception e) {
+                System.out.println("Digite um valor válido!!");
+            }
+        }
         
     }
+
+    dados[1] = valores;
+
+    sc.close();
+    }
+
+    public static void soma() {
+        
+    }
+    public static void subtracao() {
+        
+    }
+    public static void multiplicao() {
+        
+    }
+    public static void divisao() {
+        
+    }
+    public static void potenciacao() {
+        
+    }
+    public static void restoDivisao() {
+        
+    }
+
+    
+
+   
+
+
+
+
+   
 }
