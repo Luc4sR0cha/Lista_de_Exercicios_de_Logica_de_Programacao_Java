@@ -59,6 +59,7 @@ public class Main2 {
         for(int i = 0; i < data.length; i++){
             data[i] = Integer.parseInt(stringDados[i].trim());
         }
+        sc.close();
     }
 
     public static boolean verificarBissexto(int[] data) {
